@@ -5,7 +5,7 @@ export default {
     /// #endif
 
     /* eslint-disable no-unreachable */
-    return await fetch(`http://<resource>/${event}`, {
+    return await fetch(`https://<resource>/${event}`, {
       method: 'post',
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
